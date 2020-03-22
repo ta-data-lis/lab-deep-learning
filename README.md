@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This lab will let you practice performing neural network analysis. It will also introduce you additional concepts in neural network analysis and Tensorflow. You will be introduced to a web tool called [Tensorflow Playground](http://playground.tensorflow.org) with which you can play with and learn about the hyperparameters of Tensorflow.
+ This lab will let you practice performing neural network analysis. It will also introduce you additional concepts in neural network analysis and Tensorflow. You will be introduced to a web tool called [Tensorflow Playground](http://playground.tensorflow.org) with which you can play with and learn about the hyperparameters of Tensorflow.
 
 ## Getting Started
 
