@@ -1,0 +1,2 @@
+model_checkpoint_path: "tic-tac-toe.model"
+all_model_checkpoint_paths: "tic-tac-toe.model"
