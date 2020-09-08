@@ -26,3 +26,29 @@ After you're done, submit a screenshot of your Playground including the followin
 * Test and training loss
 
 **Do not google for the end solution!**
+
+## Solution:
+
+Task 1: The model as given combines our two input features into a single neuron. Will this model learn any nonlinearities? Run it to confirm your guess.
+
+No, it is set to Linear.
+
+Task 2: Try increasing the number of neurons in the hidden layer from 1 to 2, and also try changing from a Linear activation to a nonlinear activation like ReLU. Can you create a model that can learn nonlinearities? Can it model the data effectively?
+
+Yes to question 1 (it can learn nonlinearities), and no to question 2 (it does not model the data effectivelly)
+
+Task 3: Try increasing the number of neurons in the hidden layer from 2 to 3, using a nonlinear activation like ReLU. Can it model the data effectively? How model quality vary from run to run?
+
+It may model the data, but quality varies from run to run
+
+Task 4: Continue experimenting by adding or removing hidden layers and neurons per layer. Also feel free to change learning rates, regularization, and other learning settings. What is the smallest number of neurons and layers you can use that gives test loss of 0.177 or lower?
+
+Complex model may overfit and perform worse than simpler model.
+
+
+**TensorFlow Playground**
+Test loss <0.05, spiral
+
+![celina_spiral output](screenshot_celina.png)
+
+
